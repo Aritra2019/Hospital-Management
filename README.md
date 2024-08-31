@@ -30,11 +30,24 @@
     <li>mysql-connector-python</li>
 </ul>
 
+<h2>Functionality</h2>
+<p>The following buttons are available in the GUI and their respective functions:</p>
+<ul>
+    <li><strong>Prescription:</strong> Generates a prescription based on the input data and displays it in the text area on the right side of the interface. This is done by the <code>iprescription</code> function.</li>
+    <li><strong>Prescription Data:</strong> Inserts the entered patient and prescription data into the database. This is handled by the <code>iprescriptionData</code> function.</li>
+    <li><strong>Update:</strong> Updates the selected record in the database with the new data entered in the form fields. This is done by the <code>update_data</code> function.</li>
+    <li><strong>Delete:</strong> Deletes the selected patient's record from the database based on the reference number. This functionality is provided by the <code>iDelete</code> function.</li>
+    <li><strong>Clear:</strong> Clears all the input fields in the form, allowing the user to enter new data without interference from previous entries. This functionality needs to be implemented.</li>
+    <li><strong>Exit:</strong> Closes the application. This functionality needs to be implemented.</li>
+</ul>
+
 <h2>Future Work</h2>
 <p>Planned enhancements for the Hospital Management System:</p>
 <ul>
     <li>Functionality for each button</li>
     <li>User authentication</li>
+    <li>Enhanced data validation and error handling</li>
+    <li>Exporting data to CSV or PDF formats</li>
     <!-- Add more planned enhancements -->
 </ul>
 
