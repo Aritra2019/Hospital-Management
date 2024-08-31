@@ -11,14 +11,6 @@
 
 <p>This is a basic Hospital Management System built using Python and Tkinter for the GUI. It allows users to manage patient information and prescriptions.</p>
 
-<h2>Features</h2>
-<ul>
-    <li>Input patient information</li>
-    <li>Prescription management</li>
-    <li>Display patient data in a Treeview</li>
-    <!-- Add more features as you implement them -->
-</ul>
-
 <h2>How to Use</h2>
 <p>Clone the repository and run the Python script:</p>
 <pre><code>python Hospital_Management.py</code></pre>
